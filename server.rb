@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world!"
+  redirect to('/hello.txt')
 end
 
 get '/sinatra' do 
